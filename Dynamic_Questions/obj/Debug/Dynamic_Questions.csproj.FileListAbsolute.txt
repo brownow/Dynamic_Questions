@@ -1,0 +1,6 @@
+c:\users\owen\documents\visual studio 2015\Projects\Dynamic_Questions\Dynamic_Questions\bin\Debug\Dynamic_Questions.exe.config
+c:\users\owen\documents\visual studio 2015\Projects\Dynamic_Questions\Dynamic_Questions\obj\Debug\Dynamic_Questions.csprojResolveAssemblyReference.cache
+c:\users\owen\documents\visual studio 2015\Projects\Dynamic_Questions\Dynamic_Questions\bin\Debug\Dynamic_Questions.exe
+c:\users\owen\documents\visual studio 2015\Projects\Dynamic_Questions\Dynamic_Questions\bin\Debug\Dynamic_Questions.pdb
+c:\users\owen\documents\visual studio 2015\Projects\Dynamic_Questions\Dynamic_Questions\obj\Debug\Dynamic_Questions.exe
+c:\users\owen\documents\visual studio 2015\Projects\Dynamic_Questions\Dynamic_Questions\obj\Debug\Dynamic_Questions.pdb
