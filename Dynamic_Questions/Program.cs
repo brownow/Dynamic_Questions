@@ -10,7 +10,28 @@ namespace Dynamic_Questions
     {
         static void Main(string[] args)
         {
-            NumPattern p = new NumPattern();
+            add();
+            sub();
+            mult();
+        }
+
+        private static void add()
+        {
+            NumPattern p = new NumPattern("+");
+            p.init();
+            p.displayPattern();
+            p.getUserInput();
+        }
+        private static void sub()
+        {
+            NumPattern p = new NumPattern("-");
+            p.init();
+            p.displayPattern();
+            p.getUserInput();
+        }
+        private static void mult()
+        {
+            NumPattern p = new NumPattern("*");
             p.init();
             p.displayPattern();
             p.getUserInput();

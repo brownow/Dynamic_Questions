@@ -25,29 +25,49 @@ namespace Dynamic_Questions
         // 5 numbers
         // 1 difference
         // 1 type
-        public NumPattern()
+        public NumPattern(String type)
         {
             arr = new int[5];
             f1 = r.Next(25);
             s = r.Next(10);
-            type = "+";
+            this.type = type;
             blank = r.Next(this.arr.Length - 1);
         }
 
         public void init()
         {
+            int num;
             switch(this.type){
                 // Case : Addition
                 // Add the first factor to the starting number and the subsequent sums for the entire array
                 case "+":
-                    int num = s;
+                    num = s;
                     for (int i = 0; i < this.arr.Length; i++)
                     {
                         num = num + f1;
                         this.arr[i] = num;
                     }
                     break;
+
+                case "-":
+                    num = s;
+                    for (int i = 0; i < this.arr.Length; i++)
+                    {
+                        num = num - f1;
+                        this.arr[i] = num;
+                    }
+                    break;
+
+                case "*":
+                    num = s;
+                    for (int i = 0; i < this.arr.Length; i++)
+                    {
+                        num = num * f1;
+                        this.arr[i] = num;
+                    }
+                    break;
             }
+
         }
 
         public void displayPattern()
